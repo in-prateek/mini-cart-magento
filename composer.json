@@ -1,0 +1,17 @@
+{
+    "name": "in-prateek/mini-cart-magento",
+    "description": "Magento 2 module to introduce cart weight in mini cart feature",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\AdminAnalytics\\": ""
+        }
+    }
+}
